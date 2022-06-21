@@ -1,0 +1,14 @@
+.project-card{
+    border: 2px solid black;
+    margin: 0.8rem auto;
+    padding: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.project-card-button-group{
+    display: flex;
+    justify-content: space-around;
+    padding: 16% auto;
+    margin: 0.8rem auto;
+}
