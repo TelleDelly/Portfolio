@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import { Carousel, CarouselItem,Button } from 'react-bootstrap'
 
 const ProjectCard = ({projectData}) => {
-    // const [stringMax, setStringMax] = useState(5);
+    const [stringMax, setStringMax] = useState(200);
     // const description = create
   
     // if(description.length > stringMax){
@@ -13,7 +13,10 @@ const ProjectCard = ({projectData}) => {
     return (
     <div className='project-card'>
         <h1>{projectData.title}</h1>
-        <p></p>
+        <p>{projectData.description.length > stringMax
+        ? projectData.description.slice(0,stringMax) + ' ...'
+        : projectData.description        
+        }</p>
         <Carousel interval={3000}>
             {projectData.imgList  && projectData.imgList.map((image) => {
                 <CarouselItem>

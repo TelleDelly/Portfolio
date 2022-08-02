@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 import ProjectCard from './Components/ProjectCard/ProjectCard';
+import Bio from './Components/Bio/Bio';
 
 const ProjectData = [
   {
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Bio></Bio>
       <ProjectCard projectData={ProjectData[0]}></ProjectCard>
     </div>
   );
