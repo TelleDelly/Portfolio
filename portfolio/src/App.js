@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import ProjectCard from './Components/ProjectCard/ProjectCard';
 import Bio from './Components/Bio/Bio';
+import Sidebar from './Components/Navigation/Sidebar';
 
 const ProjectData = [
   {
@@ -25,9 +26,7 @@ const ProjectData = [
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Bio></Bio>
-      <ProjectCard projectData={ProjectData[0]}></ProjectCard>
+    <Sidebar/>
     </div>
   );
 }
