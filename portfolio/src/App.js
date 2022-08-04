@@ -2,7 +2,10 @@ import './App.css';
 import Header from './Components/Header/Header';
 import ProjectCard from './Components/ProjectCard/ProjectCard';
 import Bio from './Components/Bio/Bio';
+import Projects from './Pages/Projects/Projects';
 import Sidebar from './Components/Navigation/Sidebar';
+import Landing from './Pages/Landing/Landing';
+import AboutMe from './Pages/AboutMe/AboutMe';
 
 const ProjectData = [
   {
@@ -23,10 +26,21 @@ const ProjectData = [
   }
 ]
 
+
+
 function App() {
   return (
     <div className="App">
-    <Sidebar/>
+      <div className='navigation'>
+      <Sidebar/>
+      </div>
+    
+    <div className='main-content'>
+      <Landing/>
+      <AboutMe/>
+      <Projects projects={ProjectData}/>
+    </div>
+    
     </div>
   );
 }

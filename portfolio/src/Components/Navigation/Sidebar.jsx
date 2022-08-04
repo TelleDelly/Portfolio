@@ -10,7 +10,7 @@ import resume from '../../Assets/NavImages/resume.png'
 
 const Sidebar = () => {
   return (
-    <div className='main-div'>
+    <div className='side-div'>
           <a href='#'><img src={profile} alt='About Me'></img></a>
           <a href='#'><img src={projects} alt='Projects'></img></a>
           <a href='#'><img src={contact} alt='Contact Me'></img></a>
