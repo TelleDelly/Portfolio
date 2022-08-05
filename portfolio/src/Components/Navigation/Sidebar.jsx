@@ -11,12 +11,12 @@ import resume from '../../Assets/NavImages/resume.png'
 const Sidebar = () => {
   return (
     <div className='side-div'>
-          <a href='#'><img src={profile} alt='About Me'></img></a>
-          <a href='#'><img src={projects} alt='Projects'></img></a>
-          <a href='#'><img src={contact} alt='Contact Me'></img></a>
-          <a href='#'><img src={linkedin} alt='Checkout my linkedin page'></img></a>
-          <a href='#'><img src={github} alt='Checkout my github'></img></a>
-          <a href='resume'><img src={resume} alt='Checkout my resume'></img></a>
+          <a target='_blank' href='#'><img src={profile} alt='About Me'></img></a>
+          <a target='_blank' href='#'><img src={projects} alt='Projects'></img></a>
+          <a target='_blank' href='#'><img src={contact} alt='Contact Me'></img></a>
+          <a target='_blank' href='#'><img src={linkedin} alt='Checkout my linkedin page'></img></a>
+          <a target='_blank' href='#'><img src={github} alt='Checkout my github'></img></a>
+          <a target='_blank' href='resume'><img src={resume} alt='Checkout my resume'></img></a>
     </div>
   )
 }

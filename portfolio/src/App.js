@@ -11,6 +11,7 @@ const ProjectData = [
   {
     title: "Dummy Title",
     description: "Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od začátku 16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil speciální vzorovou knihu. Jeho odkaz nevydržel pouze pět století, on přežil i nástup elektronické sazby v podstatě beze změny. Nejvíce popularizováno bylo Lorem Ipsum v šedesátých letech 20. století, kdy byly vydávány speciální vzorníky s jeho pasážemi a později pak díky počítačovým DTP programům jako Aldus PageMaker.",
+    techstack: ['javascript', 'mongoose', 'mongodb', 'react'],
     imgList: [
               {alt: "picture 1 of project", src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVr2aILlsJNdn8TCJgcIGX6hhGCOGE_cC8SQ&usqp=CAU"},
               {alt: "picture 2 of project", src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmx8pQ56L4m5OXeaA16ej6vbqgpqWXmESBYg&usqp=CAU"}

@@ -13,7 +13,8 @@ const Projects = ({projects}) => {
                 return(
                     <>
                         <div className='project'>
-                            <p>{project.title}</p>
+                          <h3>{project.title}</h3>
+                          <h3>{}</h3>
                         </div>
                     </>
                 )
