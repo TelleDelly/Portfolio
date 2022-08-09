@@ -1,23 +1,34 @@
 import React from 'react'
+import Nav from 'react-bootstrap/Nav'
 import './Navigation.css'
 import profile from '../../Assets/NavImages/about.png'
 import projects from '../../Assets/NavImages/projects.png'
 import contact from '../../Assets/NavImages/contact.png'
 import github from '../../Assets/NavImages/github.png'
 import linkedin from '../../Assets/NavImages/linkedin.png'
-import resume from '../../Assets/NavImages/resume.png'
 
+
+//Testing tracking
 
 const Sidebar = () => {
   return (
-    <div className='side-div'>
-          <a target='_blank' href='#'><img src={profile} alt='About Me'></img></a>
-          <a target='_blank' href='#'><img src={projects} alt='Projects'></img></a>
-          <a target='_blank' href='#'><img src={contact} alt='Contact Me'></img></a>
-          <a target='_blank' href='#'><img src={linkedin} alt='Checkout my linkedin page'></img></a>
-          <a target='_blank' href='#'><img src={github} alt='Checkout my github'></img></a>
-          <a target='_blank' href='resume'><img src={resume} alt='Checkout my resume'></img></a>
-    </div>
+    <Nav className="side-div" onMouseOver={(selected) => console.log(selected)}>
+      <Nav.Item>
+        <Nav.Link href='#landing'><img src={profile} alt='About Me'></img></Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href='#projects'><img src={projects} alt='Projects'></img></Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href='#contact-me'><img src={contact} alt='Contact Me'></img></Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link target='_blank' href='https://www.linkedin.com/in/martin-wilson-tel/'><img src={linkedin} alt='Checkout my linkedin page'></img></Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link target='_blank' href='https://github.com/TelleDelly'><img src={github} alt='Checkout my github'></img></Nav.Link>
+      </Nav.Item>
+    </Nav>
   )
 }
 

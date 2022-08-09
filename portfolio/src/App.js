@@ -22,7 +22,7 @@ const ProjectData = [
       {alt: "picture of project 2", src: "https://preview.redd.it/qo6bq6rc8o691.jpg?width=640&crop=smart&auto=webp&s=a90934f0ab449d3181f5ea85143c5f67a44cd365"},
       {alt: "picture of project 2 2", src: "https://pbs.twimg.com/media/FUs2vN-UsAAn0E_?format=jpg&name=large"}
     ]
-  }
+  },
 ]
 
 

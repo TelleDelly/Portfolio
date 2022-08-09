@@ -14,6 +14,8 @@ aux-color - OC7489
   margin: 0;
   display: grid;
   grid-template-columns: 12fr 84fr;
+  background-color: #040404;
+  color: #D7D9CE;
 }
 
 .navigation{

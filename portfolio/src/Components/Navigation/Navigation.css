@@ -10,10 +10,10 @@
     justify-content: center;
 }
 
-.side-div a{
+.side-div Nav{
     margin-bottom: 12px;
 }
 
-.side-div a:hover{
+.side-div Nav:hover{
     background-color: aqua;
 }
