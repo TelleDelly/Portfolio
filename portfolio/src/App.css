@@ -16,6 +16,7 @@ aux-color - OC7489
   grid-template-columns: 12fr 84fr;
   background-color: #040404;
   color: #D7D9CE;
+  font-family: 'Lato', sans-serif;
 }
 
 .navigation{
