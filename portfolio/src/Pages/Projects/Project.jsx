@@ -23,7 +23,18 @@ const Project = ({project}) => {
         <div className='title-and-stack'>
           <h1>{project.title}</h1>
           <p>{techStackList}</p>
-
+        </div>
+        <div className='picture'>
+          <h1>Picture</h1>
+        </div>
+        <div className='description'>
+          <p>{project.description}</p>
+        </div>
+        <div className='repo-link'>
+          <a href={project.repoLink}>Repo</a>
+        </div>
+        <div className='live-link'>
+          <a href={project.liveLink}>Live Site</a>
         </div>
     </div>
   )
