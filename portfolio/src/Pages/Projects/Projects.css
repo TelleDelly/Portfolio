@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1em;   
+    gap: 1em;
+    justify-items: center;
 }
 
 .project{
@@ -19,11 +20,12 @@
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr 1fr;
-    border: 1px solid wheat;
+    box-shadow: 10px 10px #edf6f7, 50%;
     margin: 12px;
 }
 
 .description {
     grid-column-start: 1;
     grid-column-end: 3;
+    width: 90%;
 }
