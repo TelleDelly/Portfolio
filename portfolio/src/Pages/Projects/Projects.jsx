@@ -10,8 +10,9 @@ const Projects = ({projects}) => {
     <div className='projects-main'>
       <h2>Checkout Some of my projects</h2>
         <div className='projects-container'>
-           <Project project={projects[0]}/>
-           <Project project={projects[1]}/>
+           {projects.map((project) => {
+            return <Project project={project}/>
+           })}
         </div>
     </div>
   )

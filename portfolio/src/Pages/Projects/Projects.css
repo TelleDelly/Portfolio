@@ -1,25 +1,29 @@
 .projects-main{
-    width: 100%;
-    height: 100vh;
-
+    width: 95%;
+    height: 85vh;
 }
 
 .projects-container{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;   
 }
 
 .project{
+    background-color: #13505B;
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr 1fr;
-    row-gap: 8px;
-    column-gap: 12px;
     border: 1px solid wheat;
     margin: 12px;
+}
+
+.description {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
