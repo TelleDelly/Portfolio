@@ -13,7 +13,7 @@ aux-color - OC7489
   text-align: center;
   margin: 0;
   display: grid;
-  grid-template-columns: 12fr 84fr;
+  grid-template-columns: 1fr 7fr;
   background-color: #040404;
   color: #D7D9CE;
   font-family: 'Lato', sans-serif;
@@ -22,6 +22,10 @@ aux-color - OC7489
 .navigation{
   margin: 0;
   padding: 0;
+}
+
+.main-content{
+  width: 100%;
 }
 
 .landing-page-main{
@@ -48,9 +52,17 @@ aux-color - OC7489
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px) {
+  .App{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content{
+    width: 100vw;
   }
 }
 

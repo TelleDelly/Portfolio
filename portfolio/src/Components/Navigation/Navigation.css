@@ -1,5 +1,5 @@
 .side-div{  
-    width: 5.4vw;
+    width: 10%;
     height: 100vh;
     background-color: #119DA4;
     margin-right: 0;
@@ -17,3 +17,10 @@
 .nav-item:hover{
     background-color: aqua;
 }
+
+@media only screen and (max-width: px) {
+    .projects-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+  }

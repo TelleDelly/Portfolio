@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react'
-
-// const prepTechStack = (techStack) => {
-//   let techstring = ""
-//   techStack.forEach((tech) => {
-//     return techstring += ` ${tech}`
-//   })
-//   return techstring
-// }
-
+import Button from 'react-bootstrap/Button';
 
 // Rounded corners and box shadow on project cards
 const Project = ({project}) => {
 
+ 
+  
+
   const [techStackList, setTechStackList] = useState();
 
-  // useEffect(() => {
-  //   setTechStackList(prepTechStack(project.techstack));
-  // })
+  useEffect(() => {
+    let techstack = ''
+  project.techStack.forEach((tech) => {
+    techstack = techstack + `${tech} `
+  })
+  setTechStackList(techstack)
+  },[])
 
   return (
     <div className='project'>
@@ -31,10 +30,11 @@ const Project = ({project}) => {
           <p>{project.description}</p>
         </div>
         <div className='repo-link'>
-          <a href={project.repoLink}>Repo</a>
+          <Button><a href={project.repoLink}>Repo</a></Button>
+          
         </div>
         <div className='live-link'>
-          <a href={project.liveLink}>Live Site</a>
+          <Button><a href={project.liveLink}>Live Site</a></Button>
         </div>
     </div>
   )

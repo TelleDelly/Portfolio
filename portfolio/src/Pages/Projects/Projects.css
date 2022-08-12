@@ -1,11 +1,11 @@
 .projects-main{
     width: 95%;
-    height: 85vh;
+    height: 100vh;
 }
 
 .projects-container{
     width: 100%;
-    height: fit-content;
+    height: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -20,8 +20,9 @@
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr 1fr;
-    box-shadow: 10px 10px #edf6f7, 50%;
+    box-shadow: 4px 4px #9cccd4c9;
     margin: 12px;
+    border-radius:  0.2rem;
 }
 
 .description {
@@ -29,3 +30,18 @@
     grid-column-end: 3;
     width: 90%;
 }
+
+a{
+    color: #D7D9CE;
+    text-decoration: none;
+}
+a:hover{
+    color: #D7D9CE;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+  }
