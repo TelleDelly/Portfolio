@@ -24,7 +24,7 @@ const Project = ({project}) => {
           <p>{techStackList}</p>
         </div>
         <div className='picture'>
-          <h1>Picture</h1>
+          <img src={project.img}></img>
         </div>
         <div className='description'>
           <p>{project.description}</p>

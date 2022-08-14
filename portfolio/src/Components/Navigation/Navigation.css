@@ -18,6 +18,14 @@
     background-color: aqua;
 }
 
+.top-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
 @media only screen and (max-width: px) {
     .projects-container{
         grid-template-columns: 1fr;
