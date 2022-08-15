@@ -16,7 +16,7 @@ const Sidebar = () => {
   return (
     <Nav className="side-div" onMouseOver={(selected) => console.log(selected)}>
       <Nav.Item className="nav-item">
-        <Nav.Link href='#landing'><img classname="side-bar-image" src={profile} alt='About Me'></img></Nav.Link>
+        <Nav.Link href='#about-me-main'><img classname="side-bar-image" src={profile} alt='About Me'></img></Nav.Link>
       </Nav.Item>
       <Nav.Item className="nav-item">
         <Nav.Link href='#projects'><img classname="side-bar-image" src={projects} alt='Projects'></img></Nav.Link>
