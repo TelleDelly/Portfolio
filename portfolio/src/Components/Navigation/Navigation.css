@@ -1,5 +1,5 @@
 .side-div{  
-    width: 10%;
+    width: 5rem;
     height: 100vh;
     background-color: #119DA4;
     margin-right: 0;
@@ -24,6 +24,10 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
+}
+
+.side-bar-image{
+    width: 25px;
 }
 
 @media only screen and (max-width: px) {

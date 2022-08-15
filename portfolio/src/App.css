@@ -29,17 +29,18 @@ aux-color - OC7489
 }
 
 .landing-page-main{
-  width: 100%;
+  width: 90%;
   height: 100vh;
   display: flex;  
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   display: inline-flex;
+  margin: 8px;
 }
 
 .landing-text{
-  text-align: left;
+  text-align: center;
   width: 50%;
 }
 
@@ -59,13 +60,20 @@ aux-color - OC7489
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: #13505B;
 }
 
 @media only screen and (max-width: 600px) {
-  .App{
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      justify-items: center;
+  .landing-page-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 532px){
+  .landing-page-main img{
+    width: 200px;
   }
 }
 
@@ -73,6 +81,11 @@ aux-color - OC7489
   .main-content{
     width: 100vw;
   }
+  .App{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
 }
 
 .App-header {
@@ -94,3 +107,7 @@ aux-color - OC7489
   margin: 0;
 }
 
+.profilePicture{
+  width: 300px;
+  height: inherit;
+}

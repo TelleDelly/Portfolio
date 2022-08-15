@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button';
+import './Projects.css'
 
 // Rounded corners and box shadow on project cards
 const Project = ({project}) => {
@@ -24,7 +25,7 @@ const Project = ({project}) => {
           <p>{techStackList}</p>
         </div>
         <div className='picture'>
-          <img src={project.img}></img>
+          <img className='project-image' src={project.img}></img>
         </div>
         <div className='description'>
           <p>{project.description}</p>

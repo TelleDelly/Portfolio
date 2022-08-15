@@ -1,4 +1,6 @@
 import React from 'react'
+import pictureOfMe from '../../Assets/Pictures/IMG_5515.jpg'
+
 import '../../App.css'
 
 const Landing = () => {
@@ -9,7 +11,7 @@ const Landing = () => {
             <h1>Hi<br/>I'm Martin, <br/>a Full Stack Software Engineer</h1>
         </div>
         <div className='landing-addition'>
-            <h3>Checkout this</h3>
+            <img className='profilePicture' src={pictureOfMe}></img>
         </div>
     </div>
   )

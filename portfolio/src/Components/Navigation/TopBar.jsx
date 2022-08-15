@@ -6,7 +6,7 @@ import './Navigation.css'
 const TopBar = () => {
   return (
     <div className='top-bar-container'>
-        <p>Martin Wilson</p>
+        <h2>Martin Wilson</h2>
         <DropdownButton>
             <Dropdown.Item href="#/action-1">About Me</Dropdown.Item>
             <Dropdown.Item href="#/action-2">Projects</Dropdown.Item>

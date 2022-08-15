@@ -12,6 +12,11 @@ const AboutMe = () => {
         ready to fill whatever role is needed in your team so feel free to reach
         out.
       </h3>
+      <br></br><br></br>
+      <h2>Tech Stack</h2>
+      <h4>
+        React JavaScript Express.Js MongoDB Mongoose Node.js Python Django SQL PostGRES 
+      </h4>
     </div>
   );
 }
