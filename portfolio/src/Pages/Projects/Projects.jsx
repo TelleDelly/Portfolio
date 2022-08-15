@@ -7,7 +7,7 @@ import './Projects.css'
 const Projects = ({projects}) => {
   
   return (
-    <div className='projects-main'>
+    <div id='projects-main'>
       <h2>Checkout Some of my projects</h2>
         <div className='projects-container'>
            {projects.map((project) => {

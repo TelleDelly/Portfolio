@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 const AboutMe = () => {
   return (
-    <div className="about-me-main">
+    <div id="about-me-main">
       <h3 className="about-me-text">
         I am a full stack software engineer looking for work! I specialize in
         the MERN stack and love it. I am young, hungry and ready to learn. I
@@ -17,6 +17,7 @@ const AboutMe = () => {
       <h4>
         React JavaScript Express.Js MongoDB Mongoose Node.js Python Django SQL PostGRES 
       </h4>
+      <br></br><br></br>
     </div>
   );
 }
