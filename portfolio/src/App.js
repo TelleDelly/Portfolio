@@ -15,6 +15,16 @@ import hiatus from './Assets/Pictures/hiatus1.PNG'
 import ContactMe from './Pages/ContactMe/ContactMe';
 
 
+// {
+//   title: "A Night Out",
+//   description: "A MVC full stack application to review music venues and artists seen. I developed a full crud controller for interaction with the data. I created view pages for venues and artists. I used vanilla CSS for styling",
+//   techStack: ["EJS", "Javascript", "CSS", "Express", "Mongoose", "MongoDB","Node.js"],
+//   img: AnightOut,
+//   repoLink: "https://github.com/TelleDelly/A_Night_Out",
+//   liveLink: ""
+// },
+
+
 const ProjectData = [
   {
     title: "Sqaure Man",
@@ -23,14 +33,6 @@ const ProjectData = [
     img: Squareman,
     repoLink: "https://github.com/TelleDelly/squareMan",
     liveLink: "https://telledelly.github.io/squareMan/index.html"
-  },
-  {
-    title: "A Night Out",
-    description: "A MVC full stack application to review music venues and artists seen. I developed a full crud controller for interaction with the data. I created view pages for venues and artists. I used vanilla CSS for styling",
-    techStack: ["EJS", "Javascript", "CSS", "Express", "Mongoose", "MongoDB","Node.js"],
-    img: AnightOut,
-    repoLink: "https://github.com/TelleDelly/A_Night_Out",
-    liveLink: ""
   },
   {
     title: "Trailblazers",
