@@ -27,7 +27,7 @@ import ContactMe from './Pages/ContactMe/ContactMe';
 
 const ProjectData = [
   {
-    title: "Sqaure Man",
+    title: "Square Man",
     description: "A target bullet mania game where you dodge and weave while trying to obtain your highscore. I built a robust collision detection system in vanilla javascript, a random flight path generator for the targets, and used event handler decoupling to keep memory usage low.",
     techStack: ["Javascript", "HTML", "CSS"],
     img: Squareman,

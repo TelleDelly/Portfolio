@@ -1,21 +1,21 @@
 .projects-main{
-    width: 95%;
+    width: 90%;
     height: fit-content auto;
 }
 
 .projects-container{
-    width: 100%;
+    width: 96%;
     height: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1em;
+    column-gap: 16px;
+    row-gap: 16px;
     justify-items: center;
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 8px auto;
-    margin-left: 1rem;
+    margin: 16px auto;
 }
 
 .project{

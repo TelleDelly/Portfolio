@@ -8,7 +8,7 @@ const Landing = () => {
     <div className='landing-page-main'>
         <div className='landing-text'>
           {/* Have an array of job titles and rotate them */}
-            <h1>Hi<br/>I'm Martin, <br/>a Full Stack Software Engineer</h1>
+            <h1>Hi<br/>I'm Martin Wilson, <br/>a Full Stack Software Engineer</h1>
         </div>
         <div className='landing-addition'>
             <img className='profilePicture' src={pictureOfMe}></img>

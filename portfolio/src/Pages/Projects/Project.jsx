@@ -31,11 +31,11 @@ const Project = ({project}) => {
           <p>{project.description}</p>
         </div>
         <div className='repo-link'>
-          <Button><a href={project.repoLink}>Repo</a></Button>
+          <Button><a target='_blank' href={project.repoLink}>Repo</a></Button>
           
         </div>
         <div className='live-link'>
-          <Button><a href={project.liveLink}>Live Site</a></Button>
+          <Button><a target='_blank' href={project.liveLink}>Live Site</a></Button>
         </div>
     </div>
   )

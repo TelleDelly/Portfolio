@@ -1,4 +1,8 @@
 .about-me-main{
-    width: 100%;
+    width: 90%;
     height: 60vh;
+}
+
+.about-me-text{
+    padding: 24px auto;
 }
